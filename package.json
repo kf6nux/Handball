@@ -1,0 +1,9 @@
+{
+  "name": "Handball",
+  "version": "0.0.3",
+  "description": "Multiplayer pong using socket.io",
+  "dependencies": {
+    "express": "~4.12.3",
+    "socket.io": "~1.3.5"
+  }
+}

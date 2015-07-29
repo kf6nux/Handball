@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.gameArea {
+  display: inline-block;
+  position: relative;
+  height: 480px;
+  width: 640px;
+  border: 10px solid black;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.instructions {
+  display: inline-block;
+  font-size: 500%;
+}
+
+.rightPlayer {
+  height: 48px;
+  width: 5px;
+  float: left;
+  position: absolute;
+  left: 634px;
+  top: 216px;
+  background-color: black;
+}
+
+.leftPlayer {
+  height: 48px;
+  width: 5px;
+  float: left;
+  position: absolute;
+  left: 1px;
+  top: 216px;
+  background-color: black;
+}
+
+.ball {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  float: left;
+  position: absolute;
+  left: 315px;
+  top: 235px;
+  background-color: black;
+}
